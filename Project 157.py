@@ -4,6 +4,7 @@ import random
 
 root = Tk()
 root.title("Endless pokemon game")
+root.geometry("500x500")
 root.configure(background="orange")
 
 abra = ImageTk.PhotoImage(Image.open("abra.jpg"))
